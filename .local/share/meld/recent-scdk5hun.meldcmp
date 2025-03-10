@@ -1,0 +1,4 @@
+[Comparison]
+type = File
+uris = file:///home/mstf/.zshrc;file:///home/mstf/arch-dot-files/.zshrc
+

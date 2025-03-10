@@ -1,0 +1,27 @@
+# NetSurf cookies file.
+#
+# Lines starting with a '#' are comments, blank lines are ignored.
+#
+# All lines prior to "Version:	102" are discarded.
+#
+# Version	Domain	Domain from Set-Cookie	Path	Path from Set-Cookie	Secure	HTTP-Only	Expires	Last used	No destroy	Name	Value	Value was quoted	Scheme	URL	Comment
+Version:	102
+0	.sahibinden.com	1	/	1	1	1	1741557062	1741555322	0	__cf_bm	xWycTbj9eFuwNFz_hTh.bOGDO5CprZL9SpdIAuwRvfc-1741555262-1.0.1.1-LoF87wNKEhfuORRHUP99tNYr8dnsNOvqMrNLqxhcj5zELFsuMphWISqmq32TOB4YUZ0nKHckJQw7yqN0K6ueX8Or6dRj9S4IDjUy8YIM0juT3bB4dwoYKbtcAID0u6tl	0	unused	unused	
+0	.sahibinden.com	1	/	1	1	0	1836163281	1741555322	0	vid	946	0	unused	unused	
+0	.sahibinden.com	1	/	1	1	0	1836163281	1741555322	0	cdid	FXsaBBMM3RhVG5FW67ce0651	0	unused	unused	
+0	.sahibinden.com	1	/	1	1	0	1741557110	1741555322	0	csss	mTJZ3dWZdi4dmUaioGisnA3DmkcgTItYN2zS_fWmiuCNxfLPOOtOz4zC3jDUwJ09idtyx8g3YMK2uXDYYAe-nA	0	unused	unused	
+0	.sahibinden.com	1	/	1	1	0	1773091281	1741555322	0	csls	EVXC9AAsqqPzO-GU6N9iDPBMxvBXzT_XMy3GNiq_eCLAqZN4GxMUGQ4wpmemZfXpVjqqufij7smsJRIGRBWdng	0	unused	unused	
+0	.sahibinden.com	1	/	1	1	0	1741556181	1741555322	0	csid	HnFA8oWyvmPzu6llasDVOtszkgwYV7C-nzW02BWCa0E9oI5FdTOzJ34K0acbZkbCT3AYMTT1FN1W0mlfdeaMM99OHdeyVMG63Xqqbh5eTJeEkg_lNZLXXZSiu9RmP-d73HseV-Oh18vhE0IWeiZJQ4wc1rFxcmW94rk9LRnu6Rsoje7ExnO-eL55WL3WkP8FHyzmT-ZDIGOLMDSVwPiZlAXIAh4tL5UPjiceHxyxJHGtgWbEexBC6XVit9NR36hUYwqpIhHvi07ThWvAY40A5Zjv-rvIBxvlR-N3ASrK-NorOGpiRT-R8-baKH8pPHbDFvSinnLdcgH6cH0f0l96XDOUTfljGSzUWBYPMoh5K7ccz0IWyW63oiGTzf3iWHVI	0	unused	unused	
+0	.sahibinden.com	1	/	0	0	0	2147483647	1741555322	0	MS1	undefined	0	unused	unused	
+0	www.sahibinden.com	0	/	1	1	1	1741558881	1741555322	0	__cflb	0H28vudCb12J6LVB9qNuBCU3iDnBjmLgfk6qwbDTD9D	0	https	https://www.sahibinden.com/	
+0	.youtube.com	1	/	1	1	1	1741557021	1741555221	0	GPS	1	0	unused	unused	
+0	.youtube.com	1	/	1	1	1	1757107221	1741555221	0	VISITOR_INFO1_LIVE	3LE8B_Gz2T8	0	unused	unused	
+0	.youtube.com	1	/	1	1	1	1757107221	1741555221	0	VISITOR_PRIVACY_METADATA	CgJUUhIEGgAgOw%3D%3D	0	unused	unused	
+0	www.youtube.com	0	/	1	1	1	1757107221	1741555221	0	__Secure-ROLLOUT_TOKEN	CNK3-OPZ-dvFgAEQ17O-4vb9iwMY17O-4vb9iwM%3D	0	https	https://www.youtube.com/	
+0	.instagram.com	1	/	1	1	0	1773004772	1741555251	0	csrftoken	-mRYoBpjGjowothampVMts	0	unused	unused	
+0	.google.com	1	/	1	1	1	1757106970	1741555373	0	AEC	AVcja2dWaMezXpRd7i4Hi0PwJ5cXZ_1zF_h_mtxtUSJakibTrnOq8qHemg	0	unused	unused	
+0	.google.com	1	/	1	0	1	1757366169	1741555373	0	NID	522=JaPf_Hb83z5r3NDhaGp-vTervepxsR_w9X3yBCzwWep22kohr0Y3U8qWC75ccnWT31SLv2lvfNN__eNnwLtwfw7AbLYafH6R0fIbyPb26-NLg-4WSmBtiZ3F0JCkXoF1d_ZxslQgXP6iWroM00DaRE49MmOw06jWM_dj8_3BwJ6Sl2fcF7EESzKvz0bGE2EWuQk9fEDCHSKi5w	0	unused	unused	
+0	accounts.google.com	0	/	1	1	1	1804627373	1741555373	0	__Host-GAPS	1:WpNRO_HibV3MlyVEOnO77MOz8NrsuQ:9zxef-XUgVyTIlEc	0	https	https://accounts.google.com/ServiceLogin?continue=http://www.google.com/%3Fzx%3D1741555371&btmpl=mobile_tier2&hl=tr&service=mobile	
+0	.facebook.com	1	/	1	1	1	1749331213	1741555213	0	fr	000ItmW035Bah5fv5..BnzgYL..AAA.0.0.BnzgYN.AWV2nI1W12Y	0	unused	unused	
+0	.facebook.com	1	/	1	1	1	1776115212	1741555213	0	sb	CwbOZ_0CJ5DQkF2OLtwt3aSz	0	unused	unused	
+0	archlinux.org	0	/	1	1	1	1773004620	0	0	csrftoken	SCsr77jVMnKJfLLDWSPKrPCMhWaSQ7ky	0	https	https://archlinux.org/	

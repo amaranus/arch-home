@@ -1,0 +1,217 @@
+[   117.188] 
+X.Org X Server 1.21.1.15
+X Protocol Version 11, Revision 0
+[   117.188] Current Operating System: Linux archlinux 6.13.3-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 17 Feb 2025 17:42:11 +0000 x86_64
+[   117.188] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=80a1101b-0c5c-42fd-b64e-2194d6cfcaaf rw zswap.enabled=0 rootfstype=ext4 loglevel=3 quiet
+[   117.188]  
+[   117.188] Current version of pixman: 0.44.2
+[   117.188] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   117.188] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   117.188] (==) Log file: "/home/mstf/.local/share/xorg/Xorg.0.log", Time: Thu Feb 20 21:33:43 2025
+[   117.189] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[   117.189] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   117.189] (==) No Layout section.  Using the first Screen section.
+[   117.189] (==) No screen section available. Using defaults.
+[   117.189] (**) |-->Screen "Default Screen Section" (0)
+[   117.189] (**) |   |-->Monitor "<default monitor>"
+[   117.189] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   117.189] (**) Allowing byte-swapped clients
+[   117.189] (==) Automatically adding devices
+[   117.189] (==) Automatically enabling devices
+[   117.189] (==) Automatically adding GPU devices
+[   117.189] (==) Automatically binding GPU devices
+[   117.189] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   117.189] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[   117.189] 	Entry deleted from font path.
+[   117.189] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/TTF".
+[   117.189] 	Entry deleted from font path.
+[   117.189] 	(Run 'mkfontdir' on "/usr/share/fonts/TTF").
+[   117.189] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[   117.189] 	Entry deleted from font path.
+[   117.189] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[   117.189] 	Entry deleted from font path.
+[   117.189] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[   117.189] 	Entry deleted from font path.
+[   117.189] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[   117.189] 	Entry deleted from font path.
+[   117.189] (==) FontPath set to:
+	
+[   117.189] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   117.189] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   117.189] (II) Module ABI versions:
+[   117.189] 	X.Org ANSI C Emulation: 0.4
+[   117.189] 	X.Org Video Driver: 25.2
+[   117.189] 	X.Org XInput driver : 24.4
+[   117.189] 	X.Org Server Extension : 10.0
+[   117.190] (++) using VT number 2
+
+[   117.191] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[   117.191] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   117.191] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/0000:01:00.0/simple-framebuffer.0/drm/card0
+[   117.192] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[   117.195] (--) PCI:*(1@0:0:0) 10de:0f02:1462:8a9f rev 161, Mem @ 0xfb000000/16777216, 0xd0000000/134217728, 0xde000000/33554432, I/O @ 0x0000ef00/128, BIOS @ 0x????????/131072
+[   117.195] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   117.195] (II) LoadModule: "glx"
+[   117.195] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   117.197] (II) Module glx: vendor="X.Org Foundation"
+[   117.197] 	compiled for 1.21.1.15, module version = 1.0.0
+[   117.197] 	ABI class: X.Org Server Extension, version 10.0
+[   117.197] (==) Matched nouveau as autoconfigured driver 0
+[   117.197] (==) Matched nv as autoconfigured driver 1
+[   117.197] (==) Matched modesetting as autoconfigured driver 2
+[   117.197] (==) Matched fbdev as autoconfigured driver 3
+[   117.197] (==) Matched vesa as autoconfigured driver 4
+[   117.197] (==) Assigned the driver to the xf86ConfigLayout
+[   117.197] (II) LoadModule: "nouveau"
+[   117.197] (II) Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[   117.197] (II) Module nouveau: vendor="X.Org Foundation"
+[   117.197] 	compiled for 1.21.1.14, module version = 1.0.18
+[   117.197] 	Module class: X.Org Video Driver
+[   117.197] 	ABI class: X.Org Video Driver, version 25.2
+[   117.197] (II) LoadModule: "nv"
+[   117.197] (WW) Warning, couldn't open module nv
+[   117.197] (EE) Failed to load module "nv" (module does not exist, 0)
+[   117.197] (II) LoadModule: "modesetting"
+[   117.197] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   117.197] (II) Module modesetting: vendor="X.Org Foundation"
+[   117.197] 	compiled for 1.21.1.15, module version = 1.21.1
+[   117.197] 	Module class: X.Org Video Driver
+[   117.197] 	ABI class: X.Org Video Driver, version 25.2
+[   117.197] (II) LoadModule: "fbdev"
+[   117.198] (WW) Warning, couldn't open module fbdev
+[   117.198] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[   117.198] (II) LoadModule: "vesa"
+[   117.198] (WW) Warning, couldn't open module vesa
+[   117.198] (EE) Failed to load module "vesa" (module does not exist, 0)
+[   117.198] (II) NOUVEAU driver 
+[   117.198] (II) NOUVEAU driver for NVIDIA chipset families :
+[   117.198] 	RIVA TNT            (NV04)
+[   117.198] 	RIVA TNT2           (NV05)
+[   117.198] 	GeForce 256         (NV10)
+[   117.198] 	GeForce 2           (NV11, NV15)
+[   117.198] 	GeForce 4MX         (NV17, NV18)
+[   117.198] 	GeForce 3           (NV20)
+[   117.198] 	GeForce 4Ti         (NV25, NV28)
+[   117.198] 	GeForce FX          (NV3x)
+[   117.198] 	GeForce 6           (NV4x)
+[   117.198] 	GeForce 7           (G7x)
+[   117.198] 	GeForce 8           (G8x)
+[   117.198] 	GeForce 9           (G9x)
+[   117.198] 	GeForce GTX 2xx/3xx (GT2xx)
+[   117.198] 	GeForce GTX 4xx/5xx (GFxxx)
+[   117.198] 	GeForce GTX 6xx/7xx (GKxxx)
+[   117.198] 	GeForce GTX 9xx     (GMxxx)
+[   117.198] 	GeForce GTX 10xx    (GPxxx)
+[   117.198] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   117.198] (EE) [drm] Failed to open DRM device for (null): -22
+[   117.683] (EE) [drm] Failed to open DRM device for pci:0000:01:00.0: -19
+[   117.683] (II) modeset(0): using drv /dev/dri/card0
+[   117.683] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   117.683] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   117.683] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[   117.683] (==) modeset(0): RGB weight 888
+[   117.683] (==) modeset(0): Default visual is TrueColor
+[   117.683] (II) Loading sub module "glamoregl"
+[   117.683] (II) LoadModule: "glamoregl"
+[   117.683] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[   117.687] (II) Module glamoregl: vendor="X.Org Foundation"
+[   117.687] 	compiled for 1.21.1.15, module version = 1.0.1
+[   117.687] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   117.728] (EE) 
+[   117.728] (EE) Backtrace:
+[   117.728] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.728] (EE) 0: /usr/lib/Xorg (?+0x0) [0x5e00c46eb89c]
+[   117.728] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.728] (EE) 1: /usr/lib/libc.so.6 (?+0x0) [0x7cbfadca9cd0]
+[   117.729] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.729] (EE) 2: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae31234a]
+[   117.729] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.729] (EE) 3: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae2f464e]
+[   117.730] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.730] (EE) 4: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae2f5abe]
+[   117.730] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.730] (EE) 5: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae2f96dd]
+[   117.731] (EE) 6: /lib64/ld-linux-x86-64.so.2 (_dl_catch_exception+0xa3) [0x7cbfae2ef403]
+[   117.731] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.731] (EE) 7: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae2f8df2]
+[   117.732] (EE) 8: /lib64/ld-linux-x86-64.so.2 (_dl_catch_exception+0xa3) [0x7cbfae2ef403]
+[   117.732] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.732] (EE) 9: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae2f9284]
+[   117.732] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.732] (EE) 10: /usr/lib/libc.so.6 (?+0x0) [0x7cbfadcfd9d4]
+[   117.733] (EE) 11: /lib64/ld-linux-x86-64.so.2 (_dl_catch_exception+0xa3) [0x7cbfae2ef403]
+[   117.733] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.733] (EE) 12: /lib64/ld-linux-x86-64.so.2 (?+0x0) [0x7cbfae2ef559]
+[   117.734] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.734] (EE) 13: /usr/lib/libc.so.6 (?+0x0) [0x7cbfadcfd4b3]
+[   117.734] (EE) 14: /usr/lib/libc.so.6 (dlopen+0x6f) [0x7cbfadcfda8f]
+[   117.734] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.734] (EE) 15: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0c1b6e]
+[   117.734] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.734] (EE) 16: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0362b8]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 17: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f035fc9]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 18: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0360c5]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 19: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0b1276]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 20: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f033fe8]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 21: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f03c4b7]
+[   117.735] (EE) 22: /usr/lib/libnvidia-egl-wayland.so.1 (loadEGLExternalPlatform+0x98) [0x7cbfaa569568]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 23: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0aeb1b]
+[   117.735] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.735] (EE) 24: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0afbcf]
+[   117.736] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.736] (EE) 25: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0a548c]
+[   117.736] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.736] (EE) 26: /usr/lib/libc.so.6 (?+0x0) [0x7cbfadd06b6b]
+[   117.736] (EE) 27: /usr/lib/libc.so.6 (pthread_once+0x19) [0x7cbfadd06be9]
+[   117.737] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.737] (EE) 28: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0a51d3]
+[   117.737] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.737] (EE) 29: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f0a6ec5]
+[   117.737] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.737] (EE) 30: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f033fd3]
+[   117.737] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.737] (EE) 31: /usr/lib/libEGL_nvidia.so.0 (?+0x0) [0x7cbf9f04f1cd]
+[   117.737] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.737] (EE) 32: /usr/lib/libEGL.so.1 (?+0x0) [0x7cbfaa58a3ba]
+[   117.737] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.737] (EE) 33: /usr/lib/libEGL.so.1 (?+0x0) [0x7cbfaa58aa65]
+[   117.738] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.738] (EE) 34: /usr/lib/libc.so.6 (?+0x0) [0x7cbfadd06b6b]
+[   117.738] (EE) 35: /usr/lib/libc.so.6 (pthread_once+0x19) [0x7cbfadd06be9]
+[   117.738] (EE) 36: /usr/lib/libEGL.so.1 (eglQueryString+0x181) [0x7cbfaa588861]
+[   117.739] (EE) 37: /usr/lib/libepoxy.so.0 (epoxy_has_egl_extension+0x1e) [0x7cbfad10509e]
+[   117.739] (EE) 38: /usr/lib/xorg/modules/libglamoregl.so (glamor_egl_init+0x87) [0x7cbfad16e7b7]
+[   117.739] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.739] (EE) 39: /usr/lib/xorg/modules/drivers/modesetting_drv.so (?+0x0) [0x7cbfad1d6171]
+[   117.739] (EE) 40: /usr/lib/Xorg (InitOutput+0x1783) [0x5e00c470a1e3]
+[   117.739] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.739] (EE) 41: /usr/lib/Xorg (?+0x0) [0x5e00c45c10a9]
+[   117.740] (EE) unw_get_proc_name failed: no unwind info found [-10]
+[   117.740] (EE) 42: /usr/lib/libc.so.6 (?+0x0) [0x7cbfadc93488]
+[   117.740] (EE) 43: /usr/lib/libc.so.6 (__libc_start_main+0x8c) [0x7cbfadc9354c]
+[   117.740] (EE) 44: /usr/lib/Xorg (_start+0x25) [0x5e00c45c26d5]
+[   117.740] (EE) 
+[   117.740] (EE) Bus error at address 0x7cbf9ee63788
+[   117.740] (EE) 
+Fatal server error:
+[   117.740] (EE) Caught signal 7 (Bus error). Server aborting
+[   117.740] (EE) 
+[   117.740] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   117.740] (EE) Please also check the log file at "/home/mstf/.local/share/xorg/Xorg.0.log" for additional information.
+[   117.740] (EE) 
+[   117.743] (EE) Server terminated with error (1). Closing log file.

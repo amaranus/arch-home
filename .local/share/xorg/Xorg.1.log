@@ -1,0 +1,366 @@
+[   526.686] 
+X.Org X Server 1.21.1.15
+X Protocol Version 11, Revision 0
+[   526.687] Current Operating System: Linux archlinux 6.13.4-arch1-1 #1 SMP PREEMPT_DYNAMIC Sat, 22 Feb 2025 00:37:05 +0000 x86_64
+[   526.687] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=80a1101b-0c5c-42fd-b64e-2194d6cfcaaf rw zswap.enabled=0 rootfstype=ext4 loglevel=3 quiet
+[   526.689]  
+[   526.690] Current version of pixman: 0.44.2
+[   526.693] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   526.693] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   526.697] (==) Log file: "/home/mstf/.local/share/xorg/Xorg.1.log", Time: Fri Feb 28 20:02:50 2025
+[   526.698] (==) Using config file: "/etc/X11/xorg.conf"
+[   526.698] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[   526.699] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   526.699] (==) ServerLayout "Layout0"
+[   526.699] (**) |-->Screen "Screen0" (0)
+[   526.699] (**) |   |-->Monitor "Monitor0"
+[   526.699] (**) |   |-->Device "Device0"
+[   526.699] (**) |-->Input Device "Keyboard0"
+[   526.699] (**) |-->Input Device "Mouse0"
+[   526.699] (**) Allowing byte-swapped clients
+[   526.699] (==) Automatically adding devices
+[   526.699] (==) Automatically enabling devices
+[   526.699] (==) Automatically adding GPU devices
+[   526.699] (==) Automatically binding GPU devices
+[   526.699] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   526.699] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/misc".
+[   526.699] 	Entry deleted from font path.
+[   526.699] 	(Run 'mkfontdir' on "/usr/share/fonts/misc").
+[   526.699] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/TTF".
+[   526.699] 	Entry deleted from font path.
+[   526.699] 	(Run 'mkfontdir' on "/usr/share/fonts/TTF").
+[   526.699] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/OTF".
+[   526.699] 	Entry deleted from font path.
+[   526.699] 	(Run 'mkfontdir' on "/usr/share/fonts/OTF").
+[   526.699] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[   526.699] 	Entry deleted from font path.
+[   526.699] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[   526.699] 	Entry deleted from font path.
+[   526.699] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[   526.699] 	Entry deleted from font path.
+[   526.699] (==) FontPath set to:
+	
+[   526.699] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   526.699] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[   526.699] (WW) Disabling Keyboard0
+[   526.699] (WW) Disabling Mouse0
+[   526.699] (II) Module ABI versions:
+[   526.699] 	X.Org ANSI C Emulation: 0.4
+[   526.699] 	X.Org Video Driver: 25.2
+[   526.699] 	X.Org XInput driver : 24.4
+[   526.699] 	X.Org Server Extension : 10.0
+[   526.699] (++) using VT number 2
+
+[   526.701] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_34
+[   526.701] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   526.701] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/0000:01:00.0/simple-framebuffer.0/drm/card0
+[   526.702] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[   526.705] (--) PCI:*(1@0:0:0) 10de:0f02:1462:8a9f rev 161, Mem @ 0xfb000000/16777216, 0xd0000000/134217728, 0xde000000/33554432, I/O @ 0x0000ef00/128, BIOS @ 0x????????/131072
+[   526.705] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   526.705] (II) LoadModule: "glx"
+[   526.705] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   526.706] (II) Module glx: vendor="X.Org Foundation"
+[   526.706] 	compiled for 1.21.1.15, module version = 1.0.0
+[   526.706] 	ABI class: X.Org Server Extension, version 10.0
+[   526.706] (II) LoadModule: "nvidia"
+[   526.706] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[   526.707] (II) Module nvidia: vendor="NVIDIA Corporation"
+[   526.707] 	compiled for 4.0.2, module version = 1.0.0
+[   526.707] 	Module class: X.Org Video Driver
+[   526.707] (II) NVIDIA dlloader X Driver  390.157  Wed Oct 12 09:21:41 UTC 2022
+[   526.707] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[   526.707] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
+[   526.707] (II) systemd-logind: releasing fd for 226:0
+[   526.708] (II) Loading sub module "fb"
+[   526.708] (II) LoadModule: "fb"
+[   526.708] (II) Module "fb" already built-in
+[   526.708] (II) Loading sub module "wfb"
+[   526.708] (II) LoadModule: "wfb"
+[   526.708] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[   526.708] (II) Module wfb: vendor="X.Org Foundation"
+[   526.708] 	compiled for 1.21.1.15, module version = 1.0.0
+[   526.708] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   526.708] (II) Loading sub module "ramdac"
+[   526.708] (II) LoadModule: "ramdac"
+[   526.708] (II) Module "ramdac" already built-in
+[   526.708] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   526.708] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[   526.708] (==) NVIDIA(0): RGB weight 888
+[   526.708] (==) NVIDIA(0): Default visual is TrueColor
+[   526.708] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[   526.708] (**) NVIDIA(0): Enabling 2D acceleration
+[   526.708] (EE) NVIDIA(0): Failed to initialize the GLX module; please check in your X
+[   526.708] (EE) NVIDIA(0):     log file that the GLX module has been loaded in your X
+[   526.708] (EE) NVIDIA(0):     server, and that the module is the NVIDIA GLX module.  If
+[   526.708] (EE) NVIDIA(0):     you continue to encounter problems, Please try
+[   526.708] (EE) NVIDIA(0):     reinstalling the NVIDIA driver.
+[   526.710] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[   526.710] (--) NVIDIA(0):     CRT-0
+[   526.710] (--) NVIDIA(0):     CRT-1
+[   526.710] (--) NVIDIA(0):     DFP-0
+[   526.710] (--) NVIDIA(0):     DFP-1 (boot)
+[   526.711] (II) NVIDIA(0): NVIDIA GPU GeForce GT 730 (GF108) at PCI:1:0:0 (GPU-0)
+[   526.711] (--) NVIDIA(0): Memory: 4194304 kBytes
+[   526.711] (--) NVIDIA(0): VideoBIOS: 70.08.ae.00.02
+[   526.711] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[   526.714] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[   526.714] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[   526.714] (--) NVIDIA(GPU-0): 
+[   526.715] (--) NVIDIA(GPU-0): CRT-1: disconnected
+[   526.715] (--) NVIDIA(GPU-0): CRT-1: 400.0 MHz maximum pixel clock
+[   526.715] (--) NVIDIA(GPU-0): 
+[   526.718] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[   526.718] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[   526.718] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[   526.718] (--) NVIDIA(GPU-0): 
+[   526.732] (--) NVIDIA(GPU-0): XXX Beyond TV (DFP-1): connected
+[   526.732] (--) NVIDIA(GPU-0): XXX Beyond TV (DFP-1): Internal TMDS
+[   526.732] (--) NVIDIA(GPU-0): XXX Beyond TV (DFP-1): 225.0 MHz maximum pixel clock
+[   526.732] (--) NVIDIA(GPU-0): 
+[   526.735] (==) NVIDIA(0): 
+[   526.735] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[   526.735] (==) NVIDIA(0):     will be used as the requested mode.
+[   526.735] (==) NVIDIA(0): 
+[   526.736] (II) NVIDIA(0): Validated MetaModes:
+[   526.736] (II) NVIDIA(0):     "DFP-1:nvidia-auto-select"
+[   526.736] (II) NVIDIA(0): Virtual screen size determined to be 1920 x 1080
+[   526.741] (--) NVIDIA(0): DPI set to (40, 40); computed from "UseEdidDpi" X config
+[   526.741] (--) NVIDIA(0):     option
+[   526.742] (II) NVIDIA: Using 6144.00 MB of virtual memory for indirect memory
+[   526.742] (II) NVIDIA:     access.
+[   526.744] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[   526.744] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[   526.744] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[   526.744] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[   526.744] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[   526.744] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[   526.744] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[   526.744] (II) NVIDIA(0):     Config Options in the README.
+[   526.779] (II) NVIDIA(0): Setting mode "DFP-1:nvidia-auto-select"
+[   526.891] (==) NVIDIA(0): Disabling shared memory pixmaps
+[   526.891] (==) NVIDIA(0): Backing store enabled
+[   526.891] (==) NVIDIA(0): Silken mouse enabled
+[   526.891] (**) NVIDIA(0): DPMS enabled
+[   526.891] (II) Loading sub module "dri2"
+[   526.891] (II) LoadModule: "dri2"
+[   526.891] (II) Module "dri2" already built-in
+[   526.891] (II) NVIDIA(0): [DRI2] Setup complete
+[   526.891] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[   526.891] (II) Initializing extension Generic Event Extension
+[   526.892] (II) Initializing extension SHAPE
+[   526.892] (II) Initializing extension MIT-SHM
+[   526.892] (II) Initializing extension XInputExtension
+[   526.892] (II) Initializing extension XTEST
+[   526.892] (II) Initializing extension BIG-REQUESTS
+[   526.892] (II) Initializing extension SYNC
+[   526.892] (II) Initializing extension XKEYBOARD
+[   526.892] (II) Initializing extension XC-MISC
+[   526.893] (II) Initializing extension SECURITY
+[   526.893] (II) Initializing extension XFIXES
+[   526.893] (II) Initializing extension RENDER
+[   526.893] (II) Initializing extension RANDR
+[   526.893] (II) Initializing extension COMPOSITE
+[   526.893] (II) Initializing extension DAMAGE
+[   526.893] (II) Initializing extension MIT-SCREEN-SAVER
+[   526.894] (II) Initializing extension DOUBLE-BUFFER
+[   526.894] (II) Initializing extension RECORD
+[   526.894] (II) Initializing extension DPMS
+[   526.894] (II) Initializing extension Present
+[   526.894] (II) Initializing extension DRI3
+[   526.894] (II) Initializing extension X-Resource
+[   526.894] (II) Initializing extension XVideo
+[   526.894] (II) Initializing extension XVideo-MotionCompensation
+[   526.894] (II) Initializing extension GLX
+[   526.894] (II) AIGLX: Screen 0 is not DRI2 capable
+[   526.936] (II) IGLX: Loaded and initialized swrast
+[   526.936] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[   526.936] (II) Initializing extension XFree86-VidModeExtension
+[   526.936] (II) Initializing extension XFree86-DGA
+[   526.936] (II) Initializing extension XFree86-DRI
+[   526.936] (II) Initializing extension DRI2
+[   526.936] (II) Initializing extension NV-GLX
+[   526.936] (II) Initializing extension NV-CONTROL
+[   526.937] (II) Initializing extension XINERAMA
+[   526.991] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[   526.992] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   526.992] (**) Power Button: Applying InputClass "system-keyboard"
+[   526.992] (II) LoadModule: "libinput"
+[   526.992] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   526.993] (II) Module libinput: vendor="X.Org Foundation"
+[   526.993] 	compiled for 1.21.1.13, module version = 1.5.0
+[   526.993] 	Module class: X.Org XInput Driver
+[   526.993] 	ABI class: X.Org XInput driver, version 24.4
+[   526.993] (II) Using input driver 'libinput' for 'Power Button'
+[   526.995] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 30 paused 0
+[   526.995] (**) Power Button: always reports core events
+[   526.995] (**) Option "Device" "/dev/input/event1"
+[   526.997] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   526.997] (II) event1  - Power Button: device is a keyboard
+[   526.997] (II) event1  - Power Button: device removed
+[   526.997] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[   526.997] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   526.997] (**) Option "xkb_model" "pc105"
+[   526.997] (**) Option "xkb_layout" "tr"
+[   526.997] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   527.031] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   527.031] (II) event1  - Power Button: device is a keyboard
+[   527.032] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   527.032] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   527.032] (**) Power Button: Applying InputClass "system-keyboard"
+[   527.032] (II) Using input driver 'libinput' for 'Power Button'
+[   527.033] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 33 paused 0
+[   527.033] (**) Power Button: always reports core events
+[   527.033] (**) Option "Device" "/dev/input/event0"
+[   527.034] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   527.034] (II) event0  - Power Button: device is a keyboard
+[   527.034] (II) event0  - Power Button: device removed
+[   527.034] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[   527.034] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   527.034] (**) Option "xkb_model" "pc105"
+[   527.034] (**) Option "xkb_layout" "tr"
+[   527.034] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   527.035] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   527.035] (II) event0  - Power Button: device is a keyboard
+[   527.036] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event10)
+[   527.036] (II) No input driver specified, ignoring this device.
+[   527.036] (II) This device may have been added with another device file.
+[   527.036] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event7)
+[   527.036] (II) No input driver specified, ignoring this device.
+[   527.036] (II) This device may have been added with another device file.
+[   527.036] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event8)
+[   527.036] (II) No input driver specified, ignoring this device.
+[   527.036] (II) This device may have been added with another device file.
+[   527.037] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event9)
+[   527.037] (II) No input driver specified, ignoring this device.
+[   527.037] (II) This device may have been added with another device file.
+[   527.037] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[   527.037] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[   527.037] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[   527.089] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 34 paused 0
+[   527.089] (**) SIGMACHIP Usb Mouse: always reports core events
+[   527.089] (**) Option "Device" "/dev/input/event5"
+[   527.090] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[   527.090] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[   527.091] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[   527.091] (II) libinput: SIGMACHIP Usb Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[   527.091] (II) libinput: SIGMACHIP Usb Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[   527.091] (II) libinput: SIGMACHIP Usb Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[   527.091] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:12.0/usb1/1-5/1-5:1.0/0003:1C4F:0034.0005/input/input20/event5"
+[   527.091] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 8)
+[   527.091] (**) Option "AccelerationScheme" "none"
+[   527.091] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[   527.091] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[   527.091] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[   527.092] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[   527.092] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[   527.093] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse0)
+[   527.093] (II) No input driver specified, ignoring this device.
+[   527.093] (II) This device may have been added with another device file.
+[   527.094] (II) config/udev: Adding input device CASUE USB KB (/dev/input/event2)
+[   527.094] (**) CASUE USB KB: Applying InputClass "libinput keyboard catchall"
+[   527.094] (**) CASUE USB KB: Applying InputClass "system-keyboard"
+[   527.094] (II) Using input driver 'libinput' for 'CASUE USB KB'
+[   527.095] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 35 paused 0
+[   527.095] (**) CASUE USB KB: always reports core events
+[   527.095] (**) Option "Device" "/dev/input/event2"
+[   527.096] (II) event2  - CASUE USB KB: is tagged by udev as: Keyboard
+[   527.097] (II) event2  - CASUE USB KB: device is a keyboard
+[   527.097] (II) event2  - CASUE USB KB: device removed
+[   527.097] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:13.0/usb5/5-1/5-1:1.0/0003:2A7A:8A47.0001/input/input2/event2"
+[   527.097] (II) XINPUT: Adding extended input device "CASUE USB KB" (type: KEYBOARD, id 9)
+[   527.097] (**) Option "xkb_model" "pc105"
+[   527.097] (**) Option "xkb_layout" "tr"
+[   527.097] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   527.098] (II) event2  - CASUE USB KB: is tagged by udev as: Keyboard
+[   527.098] (II) event2  - CASUE USB KB: device is a keyboard
+[   527.099] (II) config/udev: Adding input device CASUE USB KB Consumer Control (/dev/input/event3)
+[   527.099] (**) CASUE USB KB Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   527.099] (**) CASUE USB KB Consumer Control: Applying InputClass "system-keyboard"
+[   527.099] (II) Using input driver 'libinput' for 'CASUE USB KB Consumer Control'
+[   527.101] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 36 paused 0
+[   527.101] (**) CASUE USB KB Consumer Control: always reports core events
+[   527.101] (**) Option "Device" "/dev/input/event3"
+[   527.102] (II) event3  - CASUE USB KB Consumer Control: is tagged by udev as: Keyboard
+[   527.102] (II) event3  - CASUE USB KB Consumer Control: device is a keyboard
+[   527.102] (II) event3  - CASUE USB KB Consumer Control: device removed
+[   527.102] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:13.0/usb5/5-1/5-1:1.1/0003:2A7A:8A47.0002/input/input3/event3"
+[   527.102] (II) XINPUT: Adding extended input device "CASUE USB KB Consumer Control" (type: KEYBOARD, id 10)
+[   527.102] (**) Option "xkb_model" "pc105"
+[   527.102] (**) Option "xkb_layout" "tr"
+[   527.102] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   527.104] (II) event3  - CASUE USB KB Consumer Control: is tagged by udev as: Keyboard
+[   527.104] (II) event3  - CASUE USB KB Consumer Control: device is a keyboard
+[   527.105] (II) config/udev: Adding input device CASUE USB KB System Control (/dev/input/event4)
+[   527.105] (**) CASUE USB KB System Control: Applying InputClass "libinput keyboard catchall"
+[   527.105] (**) CASUE USB KB System Control: Applying InputClass "system-keyboard"
+[   527.105] (II) Using input driver 'libinput' for 'CASUE USB KB System Control'
+[   527.106] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 37 paused 0
+[   527.106] (**) CASUE USB KB System Control: always reports core events
+[   527.106] (**) Option "Device" "/dev/input/event4"
+[   527.107] (II) event4  - CASUE USB KB System Control: is tagged by udev as: Keyboard
+[   527.107] (II) event4  - CASUE USB KB System Control: device is a keyboard
+[   527.108] (II) event4  - CASUE USB KB System Control: device removed
+[   527.108] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:13.0/usb5/5-1/5-1:1.1/0003:2A7A:8A47.0002/input/input4/event4"
+[   527.108] (II) XINPUT: Adding extended input device "CASUE USB KB System Control" (type: KEYBOARD, id 11)
+[   527.108] (**) Option "xkb_model" "pc105"
+[   527.108] (**) Option "xkb_layout" "tr"
+[   527.108] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   527.109] (II) event4  - CASUE USB KB System Control: is tagged by udev as: Keyboard
+[   527.109] (II) event4  - CASUE USB KB System Control: device is a keyboard
+[   527.110] (II) config/udev: Adding input device HDA ATI SB Rear Mic (/dev/input/event11)
+[   527.110] (II) No input driver specified, ignoring this device.
+[   527.110] (II) This device may have been added with another device file.
+[   527.110] (II) config/udev: Adding input device HDA ATI SB Front Mic (/dev/input/event12)
+[   527.110] (II) No input driver specified, ignoring this device.
+[   527.110] (II) This device may have been added with another device file.
+[   527.110] (II) config/udev: Adding input device HDA ATI SB Line (/dev/input/event13)
+[   527.110] (II) No input driver specified, ignoring this device.
+[   527.110] (II) This device may have been added with another device file.
+[   527.111] (II) config/udev: Adding input device HDA ATI SB Line Out Front (/dev/input/event14)
+[   527.111] (II) No input driver specified, ignoring this device.
+[   527.111] (II) This device may have been added with another device file.
+[   527.111] (II) config/udev: Adding input device HDA ATI SB Line Out Surround (/dev/input/event15)
+[   527.111] (II) No input driver specified, ignoring this device.
+[   527.111] (II) This device may have been added with another device file.
+[   527.111] (II) config/udev: Adding input device HDA ATI SB Line Out CLFE (/dev/input/event16)
+[   527.111] (II) No input driver specified, ignoring this device.
+[   527.111] (II) This device may have been added with another device file.
+[   527.111] (II) config/udev: Adding input device HDA ATI SB Line Out Side (/dev/input/event17)
+[   527.111] (II) No input driver specified, ignoring this device.
+[   527.111] (II) This device may have been added with another device file.
+[   527.112] (II) config/udev: Adding input device HDA ATI SB Front Headphone (/dev/input/event18)
+[   527.112] (II) No input driver specified, ignoring this device.
+[   527.112] (II) This device may have been added with another device file.
+[   527.112] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[   527.112] (II) No input driver specified, ignoring this device.
+[   527.112] (II) This device may have been added with another device file.
+[   532.913] (II) Server zapped. Shutting down.
+[   532.917] (**) Option "fd" "30"
+[   532.917] (II) event1  - Power Button: device removed
+[   532.917] (**) Option "fd" "33"
+[   532.917] (II) event0  - Power Button: device removed
+[   532.917] (**) Option "fd" "34"
+[   532.917] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[   532.917] (**) Option "fd" "35"
+[   532.917] (II) event2  - CASUE USB KB: device removed
+[   532.918] (**) Option "fd" "36"
+[   532.918] (II) event3  - CASUE USB KB Consumer Control: device removed
+[   532.918] (**) Option "fd" "37"
+[   532.918] (II) event4  - CASUE USB KB System Control: device removed
+[   532.922] (II) UnloadModule: "libinput"
+[   532.922] (II) systemd-logind: releasing fd for 13:68
+[   532.923] (II) UnloadModule: "libinput"
+[   532.923] (II) systemd-logind: releasing fd for 13:67
+[   532.924] (II) UnloadModule: "libinput"
+[   532.924] (II) systemd-logind: releasing fd for 13:66
+[   532.930] (II) UnloadModule: "libinput"
+[   532.930] (II) systemd-logind: releasing fd for 13:69
+[   532.930] (II) UnloadModule: "libinput"
+[   532.930] (II) systemd-logind: releasing fd for 13:64
+[   532.931] (II) UnloadModule: "libinput"
+[   532.931] (II) systemd-logind: releasing fd for 13:65
+[   533.029] (II) NVIDIA(GPU-0): Deleting GPU-0
+[   533.032] (II) Server terminated successfully (0). Closing log file.

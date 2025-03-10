@@ -1,0 +1,4 @@
+[Comparison]
+type = File
+uris = file:///home/mstf/arch-dot-files/.Xresources;file:///home/mstf/.Xresources
+
